@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import App from "./Movie Search App/App"
+import App from "./Popcorn-Hunt/App"
 const rootElement = document.getElementById("root");
 
 if (rootElement) {
