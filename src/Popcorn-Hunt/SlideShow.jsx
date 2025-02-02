@@ -37,7 +37,7 @@ const SlideShow = () => {
     }, [index]);
 
     return (
-        <div className="slideshow-container">
+        <div className="slideshow-container all">
             <img
                 className={`image-slide ${transition ? 'fade-in' : 'fade-out'}`}
                 src={moviePosters[index]}

@@ -5,7 +5,7 @@ import './styles.css'
 export default function Home() {
     return <>
         <LayOut />
-        <section className="text-white p-4">
+        <section className="text-white p-4 all">
             <div className="slide-show d-flex justify-content-center w-100">
                 <SlideShow />
             </div>

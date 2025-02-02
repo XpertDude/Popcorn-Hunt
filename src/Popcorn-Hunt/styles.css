@@ -12,6 +12,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100%;
+
 }
 
 .scroll-box {
@@ -146,6 +147,10 @@ body{
 
 .dot.active {
     background-color: rgba(255, 255, 255, 1);
+}
+
+.all{
+    background-color: #b4b2b22a;
 }
 
 @media screen and (max-width: 700px) {
