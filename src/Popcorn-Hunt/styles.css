@@ -3,24 +3,14 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-    background-image: url('../images/Popcorn-Hunt.png');
-    background-size: cover;
-    background-position: center;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    height: 100%;
+    background-color: var(--background);
 
 }
 
 .scroll-box {
     height: 300px;
     overflow: hidden;
-    /* Hide scrollbar by default */
     transition: overflow 0.3s;
-    /* Smooth transition */
 }
 
 .scroll-box:hover,

@@ -102,7 +102,7 @@ export default function FindMovie() {
                 </Form>
                 {error && <div className="m-3 text-danger">{error}</div>}
             </div>
-            <div className="p-4">
+            <div className="p-5">
                 {loading && <LadingEffect />}
                 {isMovieFound &&
                     !changeLayOut ?
