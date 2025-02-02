@@ -19,7 +19,7 @@ export default function Home() {
                 <li>✅ Box Office Collection</li>
             </ul>
             <p>
-                With an easy-to-use interface, you can quickly search for any film or show and get instant results. Whether you're a film buff or just looking for something new to watch, MovieFinder has you covered!
+                With an easy-to-use interface, you can quickly search for any film or show and get instant results. Whether you're a film buff or just looking for something new to watch, Popcorn Hunt has you covered!
             </p>
             <Link className="btn btn-primary" to='/search'>Start exploring now!</Link>
         </section>
